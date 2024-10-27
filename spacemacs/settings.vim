@@ -1,7 +1,7 @@
 """ Settings to behave as similar as possible to spacemacs defaults
 
 " <SPC> as the leader key
-let mapleader = " "
+let mapleader = ","
 
 " Show current vim mode
 set showmode

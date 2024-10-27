@@ -11,7 +11,7 @@ nnoremap g;    :action JumpToLastChange<CR>
 vnoremap g;    :action JumpToLastChange<CR>
 
 " Go to declaration
-let g:WhichKeyDesc_Misc_JumpToDefinition = "gd jump-to-definition"
+let g:WhichKeyDesc_Misc_JumpToDefinition = "<leader>gd jump-to-definition"
 nnoremap <leader>gd    :action GotoDeclaration<CR>
 vnoremap <leader>gd    <Esc>:action GotoDeclaration<CR>
 

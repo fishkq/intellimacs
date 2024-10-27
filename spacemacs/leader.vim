@@ -26,10 +26,9 @@ nnoremap <leader>*    :action ShowUsages<CR>
 vnoremap <leader>*    :action ShowUsages<CR>
 
 " Comment lines
-let g:WhichKeyDesc_Leader_Comment = "<leader>;; comment"
-nnoremap <leader>;;    :action CommentByLineComment<CR>
-let g:WhichKeyDesc_Leader_Comment2 = "<leader>; comment"
-vnoremap <leader>;     :action CommentByLineComment<CR>
+let g:WhichKeyDesc_Leader_Comment = "<leader>; comment"
+nnoremap <leader>;    :action CommentByLineComment<CR>
+vnoremap <leader>;    :action CommentByLineComment<CR>
 
 " Show key bindings
 let g:WhichKeyDesc_Leader_ShowKeybindings = "<leader>? show-keybindings"
